@@ -235,6 +235,8 @@ $('#img-container').columnize({ $insert, lastNeverTallest: true });", 5);
 { width: auto; margin-right: " . $this->margin_right . "px; }
 #exhibit .picture a { background: transparent; }
 .thin { clear: both; }
+.media_title { display: none; }
+.media_caption { display: none; }
 .inner-picture { margin-bottom: " . $this->bottom_margin . "px; }
 .picture_holder { margin-bottom: 12px; margin-right: " . $this->margin_right . "px; }";
 	}
